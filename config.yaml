@@ -1,11 +1,4 @@
-filters:
-  remote: true
-  part_time:
-    min_hours: 5
-    max_hours: 20
-  job_types:
-    - Internship
-    - Co-op
+filtered_jobs_url : "https://app.joinhandshake.com/stu/postings?page=1&per_page=25&sort_direction=desc&sort_column=default&job.job_types%5B%5D=3&job.remote=true&employment_type_names%5B%5D=Part-Time"
 
 application:
   resume_path: "./assets/resume.pdf"
